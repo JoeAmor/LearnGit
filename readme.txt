@@ -30,13 +30,6 @@ void binary_insert_sort(int *a, int n){
         a[right + 1] = temp;
     }
 }
-void bubble_sort(int *a, int n){
-    for (int i = 0; i < n; ++ i){
-        for (int j = 1; j < n - i; ++ j)
-            if (a[j - 1] > a[j])
-                swap(a[j - 1], a[j]);
-    }
-}
 void selection_sort(int *a, int n){
     int min_v, min_idx;
     for (int i = 0; i < n; ++ i){
