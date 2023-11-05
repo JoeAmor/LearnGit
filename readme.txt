@@ -70,3 +70,4 @@ void heap_sort(int *a, int n)
         adjust(a, 0, i - 1);
     }
 }
+void main(){}
